@@ -1,0 +1,169 @@
+/*=============================================
+	Color
+===============================================*/
+.color-default{
+	color:#fe3d3e;
+}
+.color-primary{
+	color:#2a2a2a;
+}
+.color-secondary{
+	color:#999;
+}
+.color-white{
+	color:#f0f0f0;
+}
+/*==============================================
+	Background Color
+================================================*/
+.bg-lightgray{
+	background-color: #f5f5f5;
+}
+.bg-dark{
+	background-color:#131313;
+}
+/*==============================================
+	btn
+================================================*/
+.btn{
+	background-color:#2a2a2a;
+	color:#f0f0f0;
+}
+.btn-default:hover{
+	background-color:transparent;
+	border:1px solid #fe3d3e;
+	color:#fe3d3e;
+}
+/*===============================================
+	Default color Class
+=================================================*/
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover,
+.filters ul li.mixitup-control-active,
+.cd-words-wrapper,.text_block_one:hover h5,
+.filters ul li.active{
+	color:#fe3d3e;
+}
+/*===============================================
+	Default Background color Class
+=================================================*/
+#scroll:hover,.progress-bar{
+	background-color: #fe3d3e;
+}
+/*===============================================
+	Default Border color Class
+=================================================*/
+.section_title span,.client_feedback img{
+ 	border-color:#fe3d3e;
+ }
+
+/*===============================================
+	Primary color Class
+=================================================*/
+.collapse.show
+.navbar-light .navbar-nav .nav-link,
+.img_content h1{
+	color:#2a2a2a;
+}
+
+/*===============================================
+	Primary background color Class
+=================================================*/
+
+.card-header button{
+	background-color: #2a2a2a;
+}
+/*===============================================
+	White color Class
+=================================================*/
+.card-header button,.inner-box,
+.default-portfolio-item .overlay-box h3 a,
+.default-portfolio-item .overlay-box .arrow,
+.card-header button.btn.collapsed,
+.social_media ul li a,.info i,
+.owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-next, 
+.owl-carousel .owl-nav .owl-prev,
+.default-portfolio-item .overlay-box{
+	color:#fff;
+}
+
+
+
+.card-header button.btn.collapsed{
+	background-color: #999;
+	border-bottom:1px solid #f0f0f0;
+}
+.main_nav{
+	 border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+.nav-scroll{
+	background: #fff;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.05);
+}
+.navbar.small {
+    background-color: #f0f0f0;
+ }
+ 
+
+.form-control{
+	border-color: #f0f0f0;
+}
+.form-control:focus{
+	border-color: #2a2a2a;
+}
+#scroll span{
+	border-bottom-color: #ffffff;
+}
+#scroll{
+	background-color: #2a2a2a;
+}
+.card{
+	border-color: #999;
+}
+.card-body span{
+	color:#999;
+}
+.text_block_one{
+	-webkit-box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
+	-ms-box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
+	-o-box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
+}
+
+.cd-headline.clip .cd-words-wrapper::after{
+	background-color:#999;
+}
+.title span{
+	border:2px solid #fe3d3e;
+}
+
+.social_media ul li a,
+.info i{
+	background-color:#2a2a2a;
+	border-color:#2a2a2a;
+}
+.default-portfolio-item .overlay-box{
+	background: rgba(254, 61, 62, 0.9);
+}
+.owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-next, 
+.owl-carousel .owl-nav .owl-prev{
+	background: #2a2a2a;
+	border-color: #2a2a2a
+}
+footer{
+	background-color:#f0f0f0;
+}
+
+.social_media ul li a:hover,
+.owl-carousel .owl-nav button.owl-next:hover, 
+.owl-carousel .owl-nav button.owl-prev:hover{
+	background-color:transparent;
+	border:1px solid #fe3d3e;
+	color:#fe3d3e;
+}
