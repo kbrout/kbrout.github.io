@@ -17,6 +17,8 @@
 <title>KBR-Personal Portfolio</title>
 </head>
 <body id="top" class="page-wrapper page-load bg-black color-primary" oncontextmenu ="return false;">
+<div class='cursor'></div>
+
 <a href="#" id="scroll" style="display: none;"><span></span></a>
 
 <header class="black_nav">
@@ -25,7 +27,7 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link active" href="#top">Home....2<span class="sr-only">(current)</span></a></li>
+          <li class="nav-item"><a class="nav-link active" href="#top">Home<span class="sr-only">(current)</span></a></li>
           <li class="nav-item"><a class="nav-link" href="#reasum">Resume</a></li>
           <li class="nav-item"><a class="nav-link" href="#services_three">Projects</a></li>
 <!--           <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
@@ -525,7 +527,26 @@ interoperable solution.
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/modules/data.js"></script>
     <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+
     <script>
+      const cursor = document.querySelector('.cursor');
+    document.addEventListener('mousemove', (e)=>{
+      cursor.setAttribute('style', 'top: ' + (e.clientY - 9) + 'px; left:' + (e.clientX - 9) + 'px');
+    })
+    $(document).ready(function(){
+  $("a").on({
+    mouseenter: function(){
+      $('.cursor').addClass("cursor1");
+    },  
+    mouseleave: function(){
+      $('.cursor').removeClass("cursor1");
+    }, 
+  });
+});
+
+    </script>
+
+<script>
   Highcharts.chart('container', {
 	 
 	    chart: {
