@@ -505,8 +505,10 @@ interoperable solution.
 <footer class="px_20">
   <div class="container">
     <div class="copyright">
-      <p class="mb_0">KBR @ 2018. All Right Reserved</p>
+      <p class="mb_0">KBR @ 2020. All Right Reserved</p>
     </div>
+	<div id="CounterVisitor"> 
+</div>
   </div>
 </footer>
 <script src="assests/js/jquery-3.3.1.min.js"></script> 
@@ -622,5 +624,14 @@ interoperable solution.
   fill:#000000 !important;
   }
   </style>
+  <script>
+      var n = localStorage.getItem('on_load_counter');
+    if (n === null) {
+        n = 0;
+    }
+    n++;
+    localStorage.setItem("on_load_counter", n);
+    document.getElementById('CounterVisitor').innerHTML = n;
+  </script>
 </body>
 </html>
